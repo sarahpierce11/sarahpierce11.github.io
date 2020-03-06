@@ -1,0 +1,349 @@
+@media screen and (max-width: 1440px) and (min-width: 900px){
+    .head{
+        background-color:#3c3b3a;
+    }
+    .headbar{
+        width: 7%;
+        height: 7%;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 2%;
+        left: 60%;
+        list-style-type: none;
+        color: grey;
+        
+    }
+
+    .arc{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .list{
+        padding: 20%;
+        padding-top: 2%;
+    }
+  
+    .build{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        padding-top: 2%;
+        
+        width: 500px;
+        height: 500px;
+    }
+    #about{
+        color: green;
+    }
+    .about{
+        position: absolute;
+        top: 90%;
+        width: 1400px;
+        height: 500px ;
+    }
+    .construction{
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    
+    .explain{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .explain2{
+        position: absolute;
+        top:29% ;
+        left: 5%;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    
+    .who{
+        position: absolute;
+        top: 165%;
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        
+       
+    }
+    
+    .Who-des{
+        position: absolute;
+        top: 170% ;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter; 
+        width: 20%;
+    }
+    
+    .What{
+        position: absolute;
+        top: 165%;
+        left: 30%;
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+         
+    }
+    
+    .what-des{
+        position: absolute;
+        top: 170%;
+        left: 30% ;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        width: 20%;
+    }
+    
+    .where{
+        position: absolute;
+        top: 165%;
+        left: 60%;
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal; 
+        width: 20%;
+    }
+    
+    .where-des{
+        position: absolute;
+        top: 170%;
+        left: 60%;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter; 
+    }
+    
+    .service{
+        position: absolute;
+        top: 220%;
+        width: 1400px;
+        height: 500px;
+    }
+    
+    .break{
+        position: absolute;
+        top: 290%;
+        left: 5%;
+        flex-direction: row;
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+    }
+    
+    .rest{
+        position: absolute;
+        top: 297%;
+        left: 5%;
+        font-size:20px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal; 
+        color: teal;
+    }
+    
+    .rest-des{ 
+     position: absolute;
+     top: 305%;   
+     left: 5%;
+     width: 27%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    }
+    
+    
+    .compete{
+        position: absolute;
+        top: 290%;
+        left: 65%;
+        font-size:30px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold; 
+    }
+    
+    .bowling{
+        position: absolute;
+        top: 297%;
+        left: 65%;
+        font-size:20px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal; 
+        color: teal;
+    }
+    
+    .friends{ 
+        position: absolute;
+        top: 305%;   
+        left: 65%;
+        width: 27%;   
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    
+    }
+    }   
+    
+    
+   
+    /*mobile view*/
+
+    @media screen and (min-width: 480px) and (max-width: 600px){
+
+        /*body{
+            background-color: hotpink;
+        }*/
+        .head{
+            background-color:#3c3b3a;
+        }
+        .headbar{
+            width: 7%;
+            height: 7%;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 2%;
+            left: 40%;
+            list-style-type: none;
+            color: grey;
+            
+        }
+
+        .arc{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .list{
+            padding: 20%;
+            padding-top: 2%;
+        }
+      
+        .build{
+            width: 500px;
+            height: 500px;
+        }
+        #about{
+            color: green;
+        }
+        .about{
+            width: 500px;
+            height: 500px ;
+        }
+        .construction{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        
+        .explain{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        
+        .explain2{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter;
+        }
+        
+        .who{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+            
+           
+        }
+        
+        .Who-des{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter; 
+        }
+        
+        .What{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+             
+        }
+        
+        .what-des{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter; 
+        }
+        
+        .where{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal; 
+        }
+        
+        .where-des{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: lighter; 
+        }
+        
+        .service{
+            width: 500px;
+            height: 500px;
+        }
+        
+        .break{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold; 
+        }
+        
+        .rest{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal; 
+            color: teal;
+        }
+        
+        .rest-des{ 
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        }
+        
+        
+        .compete{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold; 
+        }
+        
+        .bowling{
+            font-size:30px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal; 
+            color: teal;
+        }
+        
+        .friends{ 
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        
+        }
+        }
+
+        Your CSS is linked and working (check my body tag) so it is something to do with the rest in your mobile view. So mess around and see what happens when you removes and add elements int he mobile portion of your css)
