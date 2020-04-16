@@ -1,0 +1,335 @@
+/* desktop view */
+@media screen and (max-width: 1440px) and (min-width: 900px){
+    body{
+        background-color: gray;
+    }    
+    body #nav{
+        background-color:hotpink;
+        border-color:purple;
+        width: 1420px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+    
+    .rhead{
+        width: 1440;
+    }
+    
+    
+    
+    .img1{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300px;
+        left: 60px;
+       
+    }
+    
+    .img2{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300px;
+        left: 560px;
+    }
+    
+    .img3{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300px;
+        left: 1050px; 
+    }
+    
+    .img4{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 800px;
+        left: 300px;
+    }
+    
+    .img5{
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 800px;
+        left: 880px;
+    }
+    }
+    
+    /* moblie view*/
+    
+    @media screen and (max-width: 600px) and (min-width: 480px){
+        body{
+            background-color: gray;
+        }    
+        body #nav{
+            background-color:hotpink;
+            border-color:purple;
+            width: 580px;
+            padding-bottom: 10px;
+            
+        }
+        .nav{
+            text-align: center;
+            padding: 10px;
+            font-size: small;
+        }
+        
+        .nav-link{
+            padding: 35px;
+            hover
+            
+        }
+        
+        .nav-link:hover{
+            background-color: yellow;
+        }
+        
+        .rhead{
+            width: 1440;
+        }
+        
+        .rhead{
+            width: 600px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 40px;
+    
+        }
+    
+        .GR1{
+            width: 600px;
+            height: 2000px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 170px;
+     
+        }
+    
+        .footer{
+            width: 600px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 2040px;
+    
+        }
+        
+        .img1{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 250px;
+            left: 160px;
+           
+        }
+        
+        .img2{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 600px;
+            left: 160px;
+        }
+        
+        .img3{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 950px;
+            left: 160px; 
+        }
+        
+        .img4{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1310px;
+            left: 160px;
+        }
+        
+        .img5{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1670px;
+            left: 160px;
+        }
+    }
+    
+    /*tablet veiw*/
+    @media screen and (max-width: 900px) and (min-width: 600px){
+        body{
+            background-color: gray;
+        }    
+        body #nav{
+            background-color:hotpink;
+            border-color:purple;
+            width: 880px;
+            padding-bottom: 10px;
+            
+        }
+        .nav{
+            text-align: center;
+            padding: 10px;
+            font-size: small;
+        }
+        
+        .nav-link{
+            padding: 35px;
+            hover
+            
+        }
+        
+        .nav-link:hover{
+            background-color: yellow;
+        }
+        
+        .rhead{
+            width: 1440;
+        }
+        
+        .rhead{
+            width: 900px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 40px;
+    
+        }
+    
+        .GR1{
+            width: 900px;
+            height: 2900px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 170px;
+     
+        }
+    
+        .footer{
+            width: 900px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 2980px;
+    
+        }
+        
+        .img1{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 250px;
+            left: 280px;
+           
+        }
+        
+        .img2{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 800px;
+            left: 280px;
+        }
+        
+        .img3{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1350px;
+            left: 280px; 
+        }
+        
+        .img4{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1900px;
+            left: 280px;
+        }
+        
+        .img5{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 2450px;
+            left: 280px;
+        }
+    }
+    

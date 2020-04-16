@@ -1,0 +1,162 @@
+/* desktop view */
+@media screen and (max-width: 1440px) and (min-width: 900px){
+body{
+    background-color: gray;
+}    
+
+body #nav{
+    background-color: navy;
+    border-color: blue;
+    width: 1420px;
+    padding-bottom: 10px;
+    
+}
+.nav{
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-link{
+    padding: 35px;
+    hover
+    
+}
+
+.nav-link:hover{
+    background-color: yellow;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding: 2px;
+}
+
+.products{
+    padding: 60px;
+    padding-bottom: 20px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11,
+.img12, .img13, .img14, .img15, .img16, .img17, .img18, .img19, .img20{
+    padding-bottom: 30px;
+    
+}
+}
+
+/* moblie view*/
+
+@media screen and (max-width: 600px) and (min-width: 480px){
+    body{
+        background-color: gray;
+    }    
+    
+    body #nav{
+        background-color: navy;
+        border-color: blue;
+        width: 580px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+        font-size: small;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        padding: 2px;
+    }
+    
+    .products{
+        padding: 60px;
+        padding-bottom: 20px;
+    }
+    
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11,
+    .img12, .img13, .img14, .img15, .img16, .img17, .img18, .img19, .img20{
+        padding-bottom: 30px;
+         width: 210px;
+        height: 210px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        left: 150px;
+        }
+    .footer{
+        width: 580px;
+        height: 50px;
+    }
+}
+
+/*tablet veiw*/
+@media screen and (max-width: 900px) and (min-width: 600px){
+  body{
+        background-color: gray;
+    }    
+    
+    body #nav{
+        background-color: navy;
+        border-color: blue;
+        width: 880px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        padding: 2px;
+    }
+    
+    .products{
+        padding: 60px;
+        padding-bottom: 20px;
+    }
+    
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11,
+    .img12, .img13, .img14, .img15, .img16, .img17, .img18, .img19, .img20{
+        padding-bottom: 30px;
+         width: 210px;
+        height: 210px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        }
+    .footer{
+        width: 880px;
+        height: 50px;
+    }  
+}
+
+

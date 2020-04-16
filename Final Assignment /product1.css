@@ -1,0 +1,223 @@
+/* desktop view */
+@media screen and (max-width: 1440px) and (min-width: 900px){
+    body{
+        background-color: gray;
+    }    
+    
+    body #nav{
+        background-color: navy;
+        border-color: blue;
+        width: 1420px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+
+    .back{
+        display: flex;
+        
+    }
+
+    .product{
+        width: 600px;
+        display: flex;
+        position: absolute;
+        top: 230px;
+        left: 50px;
+    }
+
+    .info{
+        width: 650px;
+        display: flex;
+        position: absolute;
+        top: 350px;
+        left: 750px;
+    }
+
+    .title{
+        display: flex;
+        position: absolute;
+        top: 80px;
+        left: 490px;
+        
+    }
+
+    .desc{
+        font-size: small;
+        display: flex;
+        position: absolute;
+        top: 480px;
+        left: 800px;
+    }
+
+    ,footer{
+        width: 1440px;
+    }
+
+}
+
+/* moblie view*/
+
+@media screen and (max-width: 600px) and (min-width: 480px){
+    body{
+        background-color: gray;
+    }    
+    
+    body #nav{
+        background-color: navy;
+        border-color: blue;
+        width: 580px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+        font-size: small;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+
+    .back{
+        display: flex;
+        width: 600px;
+        height: 800px;
+        
+    }
+
+    .product{
+        width: 300px;
+        display: flex;
+        position: absolute;
+        top: 230px;
+        left: 150px;
+    }
+
+    .info{
+        width: 500px;
+        display: flex;
+        position: absolute;
+        top: 550px;
+        left: 50px;
+    }
+
+    .title{
+        font-size: medium;
+        display: flex;
+        position: absolute;
+        top: 60px;
+        left: 190px;
+        
+    }
+
+    .desc{
+        font-size: small;
+        display: flex;
+        position: absolute;
+        top: 640px;
+        left: 100px;
+    }
+
+    .footer{
+        display: flex;
+        width: 600px;
+    }
+
+}
+
+/*tablet veiw*/
+@media screen and (max-width: 900px) and (min-width: 600px){
+    body{
+        background-color: gray;
+    }    
+    
+    body #nav{
+        background-color: navy;
+        border-color: blue;
+        width: 880px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+        font-size: small;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+
+    .back{
+        display: flex;
+        width: 900px;
+        height: 800px;
+        
+    }
+
+    .product{
+        width: 300px;
+        display: flex;
+        position: absolute;
+        top: 230px;
+        left: 350px;
+    }
+
+    .info{
+        width: 500px;
+        display: flex;
+        position: absolute;
+        top: 550px;
+        left: 250px;
+    }
+
+    .title{
+        font-size: medium;
+        display: flex;
+        position: absolute;
+        top: 60px;
+        left: 190px;
+        
+    }
+
+    .desc{
+        font-size: small;
+        display: flex;
+        position: absolute;
+        top: 640px;
+        left: 300px;
+    }
+
+    .footer{
+        display: flex;
+        width: 900px;
+    }
+
+}

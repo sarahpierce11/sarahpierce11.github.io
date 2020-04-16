@@ -1,0 +1,322 @@
+/* desktop view */
+@media screen and (max-width: 1440px) and (min-width: 900px){
+    body{
+        background-color: gray;
+    }    
+    body #nav{
+        background-color:navy;
+        border-color:blue;
+        width: 1420px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+    
+    .rhead{
+        width: 15000;
+        display: flex;
+        position: absolute;
+        left: -22px;
+    }
+
+    .GR1{
+        display: flex;
+        position: absolute;
+        top: 250px;
+    }
+
+    .footer{
+        display: flex;
+        position: absolute;
+        top: 1230px;
+    }
+    
+    
+    .img1{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300px;
+        left: 60px;
+       
+    }
+    
+    .img2{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300px;
+        left: 560px;
+    }
+    
+    .img3{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 300px;
+        left: 1050px; 
+    }
+    
+    .img4{
+        width: 400px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 770px;
+        left: 560px;
+    }
+    }
+    
+    /* moblie view*/
+    
+    @media screen and (max-width: 600px) and (min-width: 480px){
+        body{
+            background-color: gray;
+        }    
+        body #nav{
+            background-color:navy;
+            border-color:blue;
+            width: 595px;
+            padding-bottom: 10px;
+            position: absolute;
+            left: -10px;
+            
+        }
+        .nav{
+            text-align: center;
+            padding: 10px;
+            font-size: small;
+        }
+        
+        .nav-link{
+            padding: 35px;
+            hover
+            
+        }
+        
+        .nav-link:hover{
+            background-color: yellow;
+        }
+        
+        .rhead{
+            width: 1440;
+        }
+        
+        .rhead{
+            width: 630px;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 40px;
+            left: -25px;
+    
+        }
+    
+        .GR1{
+            width: 610px;
+            height: 1500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 250px;
+            left: -10px;
+     
+        }
+    
+        .footer{
+            width: 610px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1740px;
+            left: -10px;
+    
+        }
+        
+        .img1{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 250px;
+            left: 160px;
+           
+        }
+        
+        .img2{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 600px;
+            left: 160px;
+        }
+        
+        .img3{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 950px;
+            left: 160px; 
+        }
+        
+        .img4{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1310px;
+            left: 160px;
+        }
+    }
+    
+    /*tablet veiw*/
+    @media screen and (max-width: 900px) and (min-width: 600px){
+        body{
+            background-color: gray;
+        }    
+        body #nav{
+            background-color: navy;
+            border-color:blue;
+            width: 900px;
+            padding-bottom: 10px;
+            position: absolute;
+            left: -30px;
+            
+        }
+        .nav{
+            text-align: center;
+            padding: 10px;
+            font-size: small;
+        }
+        
+        .nav-link{
+            padding: 35px;
+            hover
+            
+        }
+        
+        .nav-link:hover{
+            background-color: yellow;
+        }
+        
+        .rhead{
+            width: 1440;
+        }
+        
+        .rhead{
+            width: 920px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 40px;
+            left: -30px;
+    
+        }
+    
+        .GR1{
+            width: 883px;
+            height: 2400px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 170px;
+     
+        }
+    
+        .footer{
+            width: 885px;
+            height: 130px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 2480px;
+    
+        }
+        
+        .img1{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 250px;
+            left: 280px;
+           
+        }
+        
+        .img2{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 800px;
+            left: 280px;
+        }
+        
+        .img3{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1350px;
+            left: 280px; 
+        }
+        
+        .img4{
+            width: 500px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 1900px;
+            left: 280px;
+        }

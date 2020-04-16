@@ -1,0 +1,277 @@
+/* desktop view */
+@media screen and (max-width: 1440px) and (min-width: 900px){
+body{
+    background-color: gray;
+}    
+body #nav{
+    background-color:navy;
+    border-color:blue;
+    width: 1420px;
+    padding-bottom: 10px;
+    
+}
+.nav{
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-link{
+    padding: 35px;
+    hover
+    
+}
+
+.nav-link:hover{
+    background-color: yellow;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding: 2px;
+}
+
+.imgs{
+        padding-bottom: 15px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: absolute;
+        left: 60px;
+}
+
+.ghost{
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    top: 700px;
+    left: 110px;
+}
+
+.vision{
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    top: 700px;
+    left: 500px;
+}
+
+.distant{
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    top: 700px;
+    left: 830px;
+}
+
+.reckless{
+    display: inline-flex;
+    position: absolute;
+    padding: 10px;
+    top: 700px;
+    left: 1100px;
+}
+.footer{
+    display: flexbox;
+    flex-direction: row;
+    position: absolute;
+    top: 800px;
+    
+}
+}
+
+/* moblie view*/
+
+@media screen and (max-width: 600px) and (min-width: 480px){
+    body{
+        background-color: gray;
+    }    
+    body #nav{
+        background-color:navy;
+        border-color:blue;
+        width: 580px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+        font-size: small;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        padding: 2px;
+    }
+    
+    .imgs{
+            padding: 10px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            position: absolute;
+            left: 120px;
+    }
+
+    .img1{
+        padding-bottom: 60px;
+    }
+    .img2{
+        padding-bottom: 60px;
+    }
+    .img3{
+        padding-bottom: 60px;
+    }
+    .img4{
+        padding-bottom: 60px;
+    }
+    
+    .ghost{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 680px;
+        left: 225px;
+    }
+    
+    .vision{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 1240px;
+        left: 265px;
+    }
+    
+    .distant{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 1780px;
+        left: 260px;
+    }
+    
+    .reckless{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 2330px;
+        left: 200px;
+    }
+    .footer{
+        width: 580px ;
+        position: absolute;
+        top: 2430px;
+    }
+        
+}
+
+/*tablet veiw*/
+@media screen and (max-width: 900px) and (min-width: 600px){
+    body{
+        background-color: gray;
+    }    
+    body #nav{
+        background-color:navy;
+        border-color:blue;
+        width: 880px;
+        padding-bottom: 10px;
+        
+    }
+    .nav{
+        text-align: center;
+        padding: 10px;
+        font-size: small;
+    }
+    
+    .nav-link{
+        padding: 35px;
+        hover
+        
+    }
+    
+    .nav-link:hover{
+        background-color: yellow;
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        padding: 2px;
+    }
+    
+    .imgs{
+            padding: 10px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            position: absolute;
+            left: 120px;
+    }
+
+    .img1{
+        padding-bottom: 60px;
+    }
+    .img2{
+        padding-bottom: 60px;
+    }
+    .img3{
+        padding-bottom: 60px;
+    }
+    .img4{
+        padding-bottom: 60px;
+    }
+    
+    .ghost{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 680px;
+        left: 225px;
+    }
+    
+    .vision{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 680px;
+        left: 580px;
+    }
+    
+    .distant{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 1250px;
+        left: 260px;
+    }
+    
+    .reckless{
+        display: inline-flex;
+        position: absolute;
+        padding: 10px;
+        top: 1250px;
+        left: 530px;
+    }
+    .footer{
+        width: 580px ;
+        position: absolute;
+        top: 1350px;
+    }
+        
+}
+
+
